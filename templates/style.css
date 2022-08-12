@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(4,65,65)
+}
+.container-lg{
+    width: 81%;
+    height: 550px;
+    color: rgb(19,19,19);
+    background-color: rgb(247,247,247);
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+
+}
+#btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+}
+.form{
+    text-align: center;
+    width: 600px;
+    margin-left: 135px;
+    margin-top: 30px
+}
+.output{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
