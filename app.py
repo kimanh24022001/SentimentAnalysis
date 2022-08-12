@@ -12,6 +12,8 @@ def home():
         score = sidm.polarity_scores(inp)
         if score["neg"]!=0:
             return render_template('index.html',message='Negative')
+        else:
+            return render_template('index.html',message='Positive')
     return render_template('index.html',message='')
 if __name__=="__main__":
     app.run(debug=True)
